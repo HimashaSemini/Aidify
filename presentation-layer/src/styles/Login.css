@@ -1,0 +1,37 @@
+/* Login.css */
+.login-page {
+  min-height: 91vh; /* full height */
+  display: flex;
+  background-image: url('../assets/loginbg.jpg');
+  background-size: cover; 
+  justify-content: center;
+  align-items: center; 
+  color: #030000;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.463); /* semi-transparent */
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.login-container h2 {
+  color: #000000;
+}
+
+.login-container .form-control {
+  border-radius: 8px;
+}
+
+.login-container .btn-primary {
+  border-radius: 8px;
+  background-color: #032d14;
+  border: none;
+}
+
+.login-container .btn-primary:hover {
+  background-color: #0a6c24;
+}

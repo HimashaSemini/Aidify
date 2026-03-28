@@ -1,0 +1,5 @@
+# Ignore all .env files anywhere in the project
+*.env
+
+# Ignore node_modules if using Node/React
+node_modules/
